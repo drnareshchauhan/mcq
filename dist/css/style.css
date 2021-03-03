@@ -14,6 +14,12 @@ body {
   height: 100vh;
   background-color: #341f97;
 }
+.cm {color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  padding-bottom: 25px;
+}
 .welcome.text {
   background-color: white;
   width: 400px;
@@ -35,6 +41,7 @@ body {
 }
 .welcome_form button {
   font-size: 22px;
+  cursor: pointer;
   padding: 20px 0;
   border: none;
   background-color: white;
@@ -56,7 +63,7 @@ body {
   width: 800px;
   height: 500px;
   background-color: white;
-}
+  }
 .quiz_header {
   display: flex;
   justify-content: space-between;
@@ -126,4 +133,8 @@ body {
   color: white;
   text-align: center;
   margin-top: 15px;
+}
+footer{
+  font-size: smaller;
+  font-family: 'Courier New', Courier, monospace;
 }

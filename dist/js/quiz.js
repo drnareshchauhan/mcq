@@ -40,20 +40,18 @@ let questions = [
   },
   {
     id: 4,
-    question: "Triangle of Epidemiology stands for:",
-    answer: "Interaction & interdependence of agent, host, environment & time",
-    options: [
-      "Interaction of agent, host & environment",
-      "Interaction of agent, host, environment & time",
-      "Interaction & interdependence of agent, host, environment & time",
-      "None of the above",
-    ],
-  },
-  {
-    id: 5,
     question: "Epidemiological triad are all included except:",
     answer: "Investigator",
     options: ["Host", "Environmental factors", "Agent", "Investigator"],
+  },
+  {
+    id: 5,
+    question: "Which of the following is an example of Disability limitation in poliomyelitis?",
+    answer: "Resting affected limbs in neutral position",
+    options: ['Reducing occurrence of polio by immunization',
+      'Arranging for schooling of child suffering from PRPP',
+      'Resting affected limbs in neutral position',
+      'Providing calipers for walking'],
   },
 ];
 function submitForm(e) {
@@ -69,7 +67,7 @@ function next() {
   let userAnswer = document.querySelector("li.options.active").innerHTML;
   //check answer and give points
   if (userAnswer === questions[question_count].answer) {
-    points += 1;
+    points++;
     sessionStorage.setItem('points', points);
   }
   if (question_count === questions.length - 1) {
