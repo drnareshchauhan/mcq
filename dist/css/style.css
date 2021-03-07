@@ -19,6 +19,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 22px;
   padding-bottom: 25px;
+  font-style: italic;
 }
 .welcome.text {
   background-color: white;
