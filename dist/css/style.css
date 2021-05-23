@@ -140,3 +140,15 @@ footer {
   font-size: smaller;
   font-family: "Courier New", Courier, monospace;
 }
+.fa-home {
+  padding-top: 0%;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+.home {
+  background-color: #341f97;
+  align-content: center;
+  text-align: center;
+}
